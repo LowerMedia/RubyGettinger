@@ -1,3 +1,11 @@
-@charset "utf-8";
-/* CSS Document */
+/*
+Theme Name:     Twenty Thirteen Child
+Theme URI:      http://example.com/
+Description:    Child theme for the Twenty Thirteen theme
+Author:         Your name here
+Author URI:     http://example.com/about/
+Template:       twentythirteen
+Version:        0.1.0
+*/
 
+@import url("../twentythirteen/style.css");
