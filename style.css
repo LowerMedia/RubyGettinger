@@ -30,6 +30,14 @@ ul {
 	list-style-type: none;
 }
 
+h1 {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.7em;
+	color: #a5007e;
+	font-weight: bold;
+	overflow: hidden;
+}
+
 h2 {
 	text-align: left;
 	font-family: 'PT Sans', sans-serif;
