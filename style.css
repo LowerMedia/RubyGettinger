@@ -77,3 +77,9 @@ a {
 #topBar ul li {
 	display: inline;
 }
+
+@media screen and (max-width:480px) {
+	#topBar ul li img {
+		width: 30px;
+	}
+}
