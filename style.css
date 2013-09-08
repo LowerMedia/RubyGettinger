@@ -52,14 +52,16 @@ p {
 }
 
 a {
-	color: #ffafec;
+	color: #60b224;
 	text-decoration: none;
 }
 
-h2 a {
-	
-	color: #a5007e;
-	
+a:hover {
+	color: #2e6e00;
+}
+
+a:current {
+	color:#ffafec;
 }
 
 #topBar {
