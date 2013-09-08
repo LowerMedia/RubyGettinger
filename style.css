@@ -1,11 +1,11 @@
 /*
-Theme Name:     Twenty Thirteen Child
+Theme Name:     Ruby GettingerResponsive Child
 Theme URI:      http://example.com/
 Description:    Ruby Gettinger
 Author:         Kelsey Huebner
 Author URI:     http://example.com/about/
-Template:       twentythirteen
+Template:       responsive
 Version:        0.1.0
 */
 
-@import url("../twentythirteen/style.css");
+@import url("../responsive/style.css");
