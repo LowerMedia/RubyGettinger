@@ -31,7 +31,6 @@ ul {
 }
 
 h1 {
-	font-family: 'PT Sans', sans-serif;
 	color: #60b224;
 	font-weight: bold;
 	overflow: hidden;
@@ -39,7 +38,6 @@ h1 {
 
 h2 {
 	text-align: left;
-	font-family: 'PT Sans', sans-serif;
 	font-size: 1.7em;
 	color: #60b224;
 	font-weight: bold;
@@ -53,7 +51,6 @@ h3 {
 
 p {
 	color: #383838;
-	font-family: 'PT Sans', sans-serif;
 }
 
 a {
