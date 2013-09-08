@@ -37,8 +37,9 @@ if ( !defined('ABSPATH')) exit;
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>    
-       
+<body <?php body_class(); ?>>
+                 
+       <div id="topBar">  
        
          <?php get_sidebar('top'); ?>
 				<?php wp_nav_menu(array(
@@ -48,13 +49,6 @@ if ( !defined('ABSPATH')) exit;
 						'theme_location'  => 'header-menu')
 					); 
 				?>
-                <li><a href="https://www.facebook.com/RubysOfficialpage" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/facebook.png"/></a></li>  
-            <li><a href="http://twitter.com/RubyGettinger_" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/twitter.png" /></a></li>  
-            <li><a href="http://instagram.com/rubygettinger/" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/instagram.png" /></a></li> 		 
-            <li><a href="http://www.youtube.com/writerubygettinger" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/youtube.png" /></a></li>  
-            <li><a href="http://pinterest.com/rubygettinger/" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/pinterest.png" /></a></li> 	 
-            <li><a href="http://www.whosay.com/rubygettinger" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/whosay.png" /></a></li> 	 
-            <li><a href="http://www.linkedin.com/pub/ruby-gettinger/28/4a4/468" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/linkedin.png" /></a></li>  
                 
             <?php if (has_nav_menu('sub-header-menu', 'responsive')) { ?>
 	            <?php wp_nav_menu(array(
@@ -66,8 +60,17 @@ if ( !defined('ABSPATH')) exit;
             <?php } ?>
 
 			<?php responsive_header_bottom(); // after header content hook ?>
-     
-    
+       
+    	<ul> 	 
+    		<li><a href="https://www.facebook.com/RubysOfficialpage" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/facebook.png"/></a></li>  
+            <li><a href="http://twitter.com/RubyGettinger_" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/twitter.png" /></a></li>  
+            <li><a href="http://instagram.com/rubygettinger/" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/instagram.png" /></a></li> 		 
+            <li><a href="http://www.youtube.com/writerubygettinger" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/youtube.png" /></a></li>  
+            <li><a href="http://pinterest.com/rubygettinger/" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/pinterest.png" /></a></li> 	 
+            <li><a href="http://www.whosay.com/rubygettinger" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/whosay.png" /></a></li> 	 
+            <li><a href="http://www.linkedin.com/pub/ruby-gettinger/28/4a4/468" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/linkedin.png" /></a></li>  
+        </ul> 
+    </div> 
     
 <?php responsive_container(); // before container hook ?>
 <div id="container" class="hfeed">
