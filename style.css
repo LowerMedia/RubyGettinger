@@ -56,6 +56,12 @@ a {
 	text-decoration: none;
 }
 
+h1 a {
+	
+	color: #a5007e;
+	
+}
+
 #topBar {
 	background-color: #a5007e;
 	height: 10%;
