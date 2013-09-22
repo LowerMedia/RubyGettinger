@@ -72,7 +72,7 @@ if ( !defined('ABSPATH')) exit;
 
 			<?php responsive_header_bottom(); // after header content hook ?>
        
-    	<ul> 	 
+    	<ul id='social-media-menu' class='social-media-menu'> 	 
     		<li><a href="https://www.facebook.com/RubysOfficialpage" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/facebook.png"/></a></li>  
             <li><a href="http://twitter.com/RubyGettinger_" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/twitter.png" /></a></li>  
             <li><a href="http://instagram.com/rubygettinger/" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/instagram.png" /></a></li> 		 
