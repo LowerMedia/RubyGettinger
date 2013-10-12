@@ -21,12 +21,12 @@ get_header();
 
 global $more; $more = 0; 
 ?>
-
-<div id="content-blog">
+    <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
+<div id="content-blog" class="<?php echo implode( ' ', responsive_get_content_classes() ); ?>">
         
 	<?php get_template_part( 'loop-header' ); ?>
     
-    <?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
+
         
 	<?php if (have_posts()) : ?>
 
