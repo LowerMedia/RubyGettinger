@@ -22,7 +22,7 @@ get_header();
 global $more; $more = 0; 
 ?>
 
-<div id="content-blog" class="<?php echo implode( ' ', responsive_get_content_classes() ); ?>">
+<div id="content-blog">
         
 	<?php get_template_part( 'loop-header' ); ?>
     
