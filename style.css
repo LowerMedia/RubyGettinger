@@ -91,3 +91,249 @@ a:current {
 		width: 30px;
 	}
 }
+
+/*
+Welcome to Custom CSS!
+
+CSS (Cascading Style Sheets) is a kind of code that tells the browser how
+to render a web page. You may delete these comments and get started with
+your customizations.
+
+By default, your stylesheet will be loaded after the theme stylesheets,
+which means that your rules can take precedence and override the theme CSS
+rules. Just write here what you want to change, you don't need to copy all
+your theme's stylesheet content.
+*/
+body {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+@media screen and (min-width: 300px) {
+	body {
+		font-size: 50%;
+	}
+	
+	h2 {
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	body {
+		font-size: 75%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	body {
+		font-size: 100%;
+	}
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	margin-left: 4%;
+	padding: 0;
+	list-style-type: circle;
+	color: #383838;
+}
+
+h1 {
+	color: #60b224;
+	overflow: hidden;
+}
+
+h2 {
+	text-align: left;
+	font-family: 'Playball', sans-serif;
+	font-size: 1.7em;
+	color: #60b224;
+	font-weight: bold;
+	overflow: hidden;
+	margin-top: -30px;
+}
+
+h3 {
+	color: #a5007e;
+	font-size: 1.2em;
+}
+
+p {
+	color: #383838;
+}
+
+a {
+	color: #a5007e;
+	text-decoration: none;
+}
+
+a {
+	color: #60b224;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #2e6e00;
+}
+
+a:current {
+	color: #60b224;
+}
+
+iframe {
+	width: 100% !important;
+	height: auto;
+}
+
+#topBar {
+	background-color: #a5007e;
+	width: 100%;
+	height: 50px;
+	text-align: right;
+/*to fix margin on coming soon page*/
+}
+
+#topBar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	background-color: #a5007e;
+	background-image: none;
+}
+
+#topBar ul li {
+	display: inline;
+}
+
+#topBar .menu a {
+	height: 50px;
+	line-height: 50px;
+}
+
+#topBar .menu a:current {
+	color: #60b224;
+	text-outline: none;
+}
+
+#logoImg {
+	margin-top: -1.6%;
+	text-align: left;
+	margin-left: 15%;
+	width: 40%;
+}
+
+#bodyContainer {
+	text-align: center;
+	clear: both;
+	margin: auto;
+	width: 50%;
+}
+
+@media screen and (max-width:480px) {
+	#topBar ul li img {
+		width: 30px;
+	}
+}
+
+#widgets {
+	margin-top: -200px;
+}
+
+.main-nav {
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+
+.social-media-menu {
+	width: 40%;
+	display: inline-block;
+}
+
+/*overriding default nav settings*/
+.menu a {
+	border: 1px px solid white;
+}
+
+.menu .current_page_item a, .menu .current-menu-item a {
+	background-color: #fff8fd;
+	color: #60b224;
+	text-outline: none;
+	text-shadow: none;
+}
+
+.menu a:hover {
+	background-color: #fff8fd;
+	color: #60b224;
+	text-outline: none;
+	text-shadow: none;
+}
+
+#wrapper {
+	background: none;
+	border: none;
+}
+
+@media screen and (max-width:480px) {
+	#topBar ul li img {
+		width: 30px;
+	}
+}
+
+/*
+HIDE NAVIGATION ON VOTE PAGE
+*/
+.page-id-112 .main-nav {
+	display: none;
+}
+
+#post-112 #yop-poll-container-2_yp523ca9077d872 {
+	background: #fff8fd !important;
+}
+
+.widget-title, .widget-title-home h3 {
+	color: #60B224;
+}
+
+.clearfix:after, .clearfix:before, #container:after, #container:before, .widget-wrapper:after, .widget-wrapper:before {
+	background-color: white;
+}
+
+.page-id-12 div.sharedaddy .sd-title {
+	display: none;
+}
+
+.page-id-12 div.sharedaddy .sd-content {
+	float: left;
+}
+
+#yop-poll-answer-6, label[for=yop-poll-answer-6],
+#yop-poll-answer-8, label[for=yop-poll-answer-8],
+#yop-poll-answer-14, label[for=yop-poll-answer-14],
+#yop-poll-answer-16, label[for=yop-poll-answer-16],
+#yop-poll-answer-17, label[for=yop-poll-answer-17],
+#yop-poll-answer-18, label[for=yop-poll-answer-18],
+#yop-poll-answer-20, label[for=yop-poll-answer-20],
+#yop-poll-answer-25, label[for=yop-poll-answer-25],
+#yop-poll-answer-27, label[for=yop-poll-answer-26],
+#yop-poll-answer-26, label[for=yop-poll-answer-27],
+#yop-poll-answer-28, label[for=yop-poll-answer-28],
+#yop-poll-answer-29, label[for=yop-poll-answer-29],
+#yop-poll-answer-30, label[for=yop-poll-answer-30],
+#yop-poll-answer-32, label[for=yop-poll-answer-32], 
+#yop-poll-answer-33, label[for=yop-poll-answer-33],
+#yop-poll-answer-34, label[for=yop-poll-answer-34],
+#yop-poll-answer-35, label[for=yop-poll-answer-35],
+#yop-poll-answer-36, label[for=yop-poll-answer-36],
+#yop-poll-answer-37, label[for=yop-poll-answer-37], 
+#yop-poll-answer-38, label[for=yop-poll-answer-38],
+#yop-poll-answer-39, label[for=yop-poll-answer-39],
+#yop-poll-answer-40, label[for=yop-poll-answer-40] {
+	display: none;
+}
