@@ -143,7 +143,7 @@
 					<?php the_post_thumbnail( 'featured-slide', array( 'title' => get_the_title() ) ); ?>
 					
 				<?php endif; ?>
-			<p><?php the_excerpt(); ?></p>
+			<p id='exerpt-holder'><a href="<?php echo get_post_meta( $post->ID, "slide_url_value", $single = true ); ?>" title="<?php the_title(); ?>"><?php the_excerpt(); ?></a></p>
 
 			</div><!-- .mslide -->
 			
