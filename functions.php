@@ -13,4 +13,13 @@ function add_googleanalytics() { ?>
   ga('send', 'pageview');
 
 </script>
-<?php } ?>
+
+<?php }
+
+// Add excerpts to Meteor Slides
+
+add_post_type_support('slide', 'excerpt');
+
+
+ ?>
+
