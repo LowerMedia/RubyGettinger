@@ -271,6 +271,9 @@ iframe {
 	background-color:white;
 }
 
+.menu {
+background-image:none;
+}
 .menu .current_page_item a, .menu .current-menu-item a {
 	background-color: #fff8fd;
 	color: #60b224;
