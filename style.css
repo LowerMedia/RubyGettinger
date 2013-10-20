@@ -267,7 +267,8 @@ iframe {
 
 /*overriding default nav settings*/
 .menu a {
-	border: 1px px solid white;
+	border: none;
+	background-color:white;
 }
 
 .menu .current_page_item a, .menu .current-menu-item a {
