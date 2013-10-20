@@ -234,6 +234,7 @@ iframe {
 	position: relative;
 	z-index: 100;
 	margin-top:-30px;
+	float:left;
 }
 
 #bodyContainer {
@@ -256,7 +257,7 @@ iframe {
 .main-nav {
 	width: 50%;
 	display: inline-block;
-	float: left;
+	float: right;
 }
 
 .social-media-menu {
