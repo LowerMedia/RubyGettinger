@@ -80,15 +80,15 @@ if ( !defined('ABSPATH')) exit;
 					); 
 				?>
             <?php } ?>
-
+    
+    <hr/>
 			<?php responsive_header_bottom(); // after header content hook ?>
     
 <?php responsive_container(); // before container hook ?>
 <div id="container" class="hfeed">
          
     <?php responsive_header(); // before header hook ?>
-    
-    <hr/>
+
     <div id="header">
     
 
