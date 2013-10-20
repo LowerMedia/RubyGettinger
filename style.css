@@ -251,7 +251,7 @@ iframe {
 }
 
 #widgets {
-	
+
 }
 
 .main-nav {
@@ -294,6 +294,8 @@ background-color:white;
 #wrapper {
 	background: none;
 	border: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 @media screen and (max-width:480px) {
