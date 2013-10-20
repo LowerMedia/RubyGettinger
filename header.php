@@ -82,7 +82,7 @@ if ( !defined('ABSPATH')) exit;
 
             <?php } ?>
                                 
-    <hr/>
+    <hr class="hr_nav"/>
 
 			<?php responsive_header_bottom(); // after header content hook ?>
     
