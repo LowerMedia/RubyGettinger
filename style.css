@@ -266,7 +266,7 @@ iframe {
 }
 
 /*overriding default nav settings*/
-.menu a {
+.main-nav .menu a {
 	border: none;
 	background-color:white;
 }
