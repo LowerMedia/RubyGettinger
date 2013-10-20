@@ -79,9 +79,10 @@ if ( !defined('ABSPATH')) exit;
 					'theme_location'  => 'sub-header-menu')
 					); 
 				?>
-            <?php } ?>
-    
+                    
     <hr/>
+            <?php } ?>
+
 			<?php responsive_header_bottom(); // after header content hook ?>
     
 <?php responsive_container(); // before container hook ?>
