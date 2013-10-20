@@ -269,6 +269,8 @@ iframe {
 .main-nav .menu a {
 	border: none;
 	background-color:white;
+	text-shadow:none;
+	color:#ffafec;
 }
 
 .menu {
