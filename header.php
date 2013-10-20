@@ -62,7 +62,10 @@ if ( !defined('ABSPATH')) exit;
             <li><a href="http://www.linkedin.com/pub/ruby-gettinger/28/4a4/468" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/linkedin.png" /></a></li>  
         </ul> 
     </div> 
-    
+ 
+<div id="container" class="hfeed">
+
+   
        <?php get_sidebar('top'); ?>
 				<?php wp_nav_menu(array(
 				    'container'       => 'div',
@@ -81,13 +84,11 @@ if ( !defined('ABSPATH')) exit;
 				?>
 
             <?php } ?>
-                                
-    <hr class="hr_nav"/>
+
 
 			<?php responsive_header_bottom(); // after header content hook ?>
     
 <?php responsive_container(); // before container hook ?>
-<div id="container" class="hfeed">
          
     <?php responsive_header(); // before header hook ?>
 

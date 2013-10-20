@@ -23,6 +23,9 @@ rules. Just write here what you want to change, you don't need to copy all
 your theme's stylesheet content.
 */
 
+#container{
+	box-shadow: 2px 2px 5px #CCC;
+}
 
 ul {
 	margin: 0;
