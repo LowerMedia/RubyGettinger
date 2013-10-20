@@ -87,6 +87,8 @@ if ( !defined('ABSPATH')) exit;
 <div id="container" class="hfeed">
          
     <?php responsive_header(); // before header hook ?>
+    
+    <hr/>
     <div id="header">
     
 
