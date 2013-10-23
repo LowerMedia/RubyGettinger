@@ -22,7 +22,7 @@ if ( !defined('ABSPATH')) exit;
 get_header(); 
 ?>
 
-<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow(); } ?>
+<?php if ( function_exists( 'meteor_slideshow' ) ) { meteor_slideshow( "homepage", "" ); } ?>
 
 <div id="content-blog" class="<?php echo implode( ' ', responsive_get_content_classes() ); ?>">
         
