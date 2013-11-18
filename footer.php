@@ -120,7 +120,7 @@ $responsive_options = responsive_get_options();
         <div class="grid col-300 scroll-top"><a href="#scroll-top" title="<?php esc_attr_e( 'scroll to top', 'responsive' ); ?>"><?php _e( '&uarr;', 'responsive' ); ?></a></div>
         
         <div class="grid col-300 fit powered">
-            <a href="<?php echo esc_url( 'http://lowermedia.net' ); ?>" title="<?php esc_attr_e('LowerMedia', 'lowermedia'); ?>">
+            <a href="<?php echo esc_url( 'http://kelseyhuebner.com' ); ?>" title="<?php esc_attr_e('KelseyHuebner', 'kelseyhuebner'); ?>">
                     Custom Theme by Kelsey Huebner</a>
             <?php esc_attr_e('powered by', 'lowermedia'); ?> <a href="<?php echo esc_url( 'http://lowermedia.net/' ); ?>" title="<?php esc_attr_e('LowerMedia', 'lowermedia'); ?>">
                     LowerMedia</a>
