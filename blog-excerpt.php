@@ -37,6 +37,8 @@ if ( !defined('ABSPATH')) exit;
 		?>
 		</section>
 
+		<?php get_the_content_with_formatting(); ?>
+
 	<?php get_template_part( 'loop-header' ); ?>
 			
 	<?php 
