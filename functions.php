@@ -27,7 +27,7 @@ function child_theme_setup() {
 
 	register_sidebar( array(
 		'name' => __( 'Homepage Content Top', 'responsive' ),
-		'id' => 'homewidget-1',
+		'id' => 'homewidget',
 		'description' => __( 'Widget area under the homepage slider but before blog listing', 'responsive' ),
 	) );
 
