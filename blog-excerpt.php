@@ -33,11 +33,21 @@ if ( !defined('ABSPATH')) exit;
         <section class='bio-text'>
 		<?php
 		$content = get_the_content('Read more');
-		print $content;
+		print $content."<br/><br/>";
+		
+		function get_the_content_with_formatting ($more_link_text = '(more...)', $stripteaser = 0, $more_file = '') {
+			$content = get_the_content($more_link_text, $stripteaser, $more_file);
+			$content = apply_filters('the_content', $content);
+			$content = str_replace(']]>', ']]&gt;', $content);
+			return $content;
+		}
+
+		get_the_content_with_formatting(); 
+
 		?>
 		</section>
 		<section class='blog-wrap'>
-		<?php get_the_content_with_formatting(); ?>
+		
 
 	<?php get_template_part( 'loop-header' ); ?>
 			
