@@ -30,6 +30,13 @@ if ( !defined('ABSPATH')) exit;
 
 <div id="content-blog" class="<?php echo implode( ' ', responsive_get_content_classes() ); ?>">
         
+        <section class='bio-text'>
+		<?php
+		$content = get_the_content('Read more');
+		print $content;
+		?>
+		</section>
+
 	<?php get_template_part( 'loop-header' ); ?>
 			
 	<?php 
