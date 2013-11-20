@@ -17,9 +17,21 @@ function add_googleanalytics() { ?>
 <?php }
 
 // Add excerpts to Meteor Slides
-
 add_post_type_support('slide', 'excerpt');
+//----------------------------//
 
+add_action( 'after_setup_theme', 'child_theme_setup' );
 
- ?>
+if ( !function_exists( 'child_theme_setup' ) ):
+function child_theme_setup() {
 
+	register_sidebar( array(
+		'name' => __( 'Homepage Content Top', 'responsive' ),
+		'id' => 'horizontal-1',
+		'description' => __( 'Widget area under the homepage slider but before blog listing', 'responsive' ),
+	) );
+
+}
+endif;
+
+?>
