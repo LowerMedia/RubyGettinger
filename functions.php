@@ -1,5 +1,11 @@
 <?php
 
+function get_the_content_with_formatting ($more_link_text = '(more...)', $stripteaser = 0, $more_file = '') {
+	$content = get_the_content($more_link_text, $stripteaser, $more_file);
+	$content = apply_filters('the_content', $content);
+	$content = str_replace(']]>', ']]&gt;', $content);
+	return $content;
+}
 
 add_action('wp_head', 'add_googleanalytics');
 function add_googleanalytics() { ?>
@@ -34,11 +40,6 @@ function child_theme_setup() {
 }
 endif;
 
-function get_the_content_with_formatting ($more_link_text = '(more...)', $stripteaser = 0, $more_file = '') {
-	$content = get_the_content($more_link_text, $stripteaser, $more_file);
-	$content = apply_filters('the_content', $content);
-	$content = str_replace(']]>', ']]&gt;', $content);
-	return $content;
-}
+
 
 ?>
