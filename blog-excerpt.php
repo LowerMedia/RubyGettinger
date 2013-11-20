@@ -32,15 +32,11 @@ if ( !defined('ABSPATH')) exit;
         
         <section class='bio-text'>
 		<?php
-		$content = get_the_content('Read more');
-		print $content."<br/><br/>";
-		
 		
 		$content = get_the_content($more_link_text, $stripteaser, $more_file);
 		$content = apply_filters('the_content', $content);
 		$content = str_replace(']]>', ']]&gt;', $content);
 		print $content;
-
 
 		?>
 		</section>
