@@ -36,7 +36,7 @@ if ( !defined('ABSPATH')) exit;
 		print $content;
 		?>
 		</section>
-
+		<section class='blog-wrap'>
 		<?php get_the_content_with_formatting(); ?>
 
 	<?php get_template_part( 'loop-header' ); ?>
@@ -104,7 +104,7 @@ if ( !defined('ABSPATH')) exit;
 	$wp_query = $temp_query;
 	wp_reset_postdata();
 	?>  
-      
+      </section>
 </div><!-- end of #content-blog -->
 
 <?php get_sidebar(); ?>
