@@ -25,7 +25,6 @@ if ( !defined('ABSPATH')) exit;
 	{
 		meteor_slideshow( "homepage", "" ); 
 	}
-	get_template_part('homepagewidget');
 ?>
 
 <div id="content-blog" class="<?php echo implode( ' ', responsive_get_content_classes() ); ?>">
