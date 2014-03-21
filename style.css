@@ -356,7 +356,7 @@ HIDE NAVIGATION ON VOTE PAGE
   margin-left: 7px;
 }
 
-body.custom-background {
+body {
   background: white;
   height: 100%;
   /* IE6-9 */
