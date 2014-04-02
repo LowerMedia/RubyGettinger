@@ -53,13 +53,13 @@ if ( !defined('ABSPATH')) exit;
        <div id="topBar">  
        
     	<ul id='social-media-menu' class='social-media-menu'> 	 
-    		<li><a href="https://www.facebook.com/RubysOfficialpage" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/facebook.png"/></a></li>  
-            <li><a href="http://twitter.com/RubyGettinger_" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/twitter.png" /></a></li>  
-            <li><a href="http://instagram.com/rubygettinger/" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/instagram.png" /></a></li> 		 
-            <li><a href="http://www.youtube.com/writerubygettinger" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/youtube.png" /></a></li>  
-            <li><a href="http://pinterest.com/rubygettinger/" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/pinterest.png" /></a></li> 	 
-            <li><a href="http://www.whosay.com/rubygettinger" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/whosay.png" /></a></li> 	 
-            <li><a href="http://www.linkedin.com/pub/ruby-gettinger/28/4a4/468" target="_blank"><img alt="" src="http://lowermedia.net/ruby-gettinger/assets/sites/23/2013/08/linkedin.png" /></a></li>  
+    		<li><a href="https://www.facebook.com/RubysOfficialpage" target="_blank"><img alt="" src="http://rubygettinger.net/wp-content/uploads/2013/08/facebook.png"/></a></li>  
+            <li><a href="http://twitter.com/RubyGettinger_" target="_blank"><img alt="" src="http://rubygettinger.net/wp-content/uploads/2013/08/twitter.png" /></a></li>  
+            <li><a href="http://instagram.com/rubygettinger/" target="_blank"><img alt="" src="http://rubygettinger.net/wp-content/uploads/2013/08/instagram.png" /></a></li> 		 
+            <li><a href="http://www.youtube.com/writerubygettinger" target="_blank"><img alt="" src="http://rubygettinger.net/wp-content/uploads/2013/08/youtube.png" /></a></li>  
+            <li><a href="http://pinterest.com/rubygettinger/" target="_blank"><img alt="" src="http://rubygettinger.net/wp-content/uploads/2013/08/pinterest.png" /></a></li> 	 
+            <li><a href="http://www.whosay.com/rubygettinger" target="_blank"><img alt="" src="http://rubygettinger.net/wp-content/uploads/2013/08/whosay.png" /></a></li> 	 
+            <li><a href="http://www.linkedin.com/pub/ruby-gettinger/28/4a4/468" target="_blank"><img alt="" src="http://rubygettinger.net/wp-content/uploads/2013/08/linkedin.png" /></a></li>  
         </ul> 
     </div> 
  
