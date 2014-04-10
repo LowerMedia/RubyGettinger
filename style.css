@@ -23,6 +23,43 @@ rules. Just write here what you want to change, you don't need to copy all
 your theme's stylesheet content.
 */
 
+
+/*----- HTML ELEMENTS -----*/
+/*----- BODY/WRAPPERS -----*/
+
+body {
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	background: white;
+	height: 100%;
+	/* IE6-9 */
+	/*background: url("http://rubygettinger.net/assets/sites/23/2013/11/ruby_background_faith_emotional_god_physical_trust_dream_powerful_hope_outlines.png");*/
+	background: url("http://rubygettinger.net/wp-content/uploads/2013/11/ruby_background_faith_emotional_god_physical_trust_dream_powerful_hope_outlines.png");
+}
+
+@media screen and (min-width: 300px) {
+	body {
+		font-size: 50%;
+	}
+	
+	h2 {
+		clear: both;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	body {
+		font-size: 75%;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	body {
+		font-size: 100%;
+	}
+}
+
 #container{
 	box-shadow: 2px 2px 5px #CCC;
 }
@@ -96,33 +133,7 @@ a:current {
 	}
 }
 
-body {
-	font-size: 100%;
-	margin: 0;
-	padding: 0;
-}
 
-@media screen and (min-width: 300px) {
-	body {
-		font-size: 50%;
-	}
-	
-	h2 {
-		clear: both;
-	}
-}
-
-@media screen and (min-width: 600px) {
-	body {
-		font-size: 75%;
-	}
-}
-
-@media screen and (min-width: 700px) {
-	body {
-		font-size: 100%;
-	}
-}
 
 img {
 	max-width: 100%;
@@ -356,12 +367,7 @@ HIDE NAVIGATION ON VOTE PAGE
   margin-left: 7px;
 }
 
-body {
-  background: white;
-  height: 100%;
-  /* IE6-9 */
-  background: url("http://rubygettinger.net/assets/sites/23/2013/11/ruby_background_faith_emotional_god_physical_trust_dream_powerful_hope_outlines.png");
-}
+
 
 .menu a:hover {
   background-color: white;
